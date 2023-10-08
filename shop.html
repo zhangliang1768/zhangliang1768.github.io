@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+        <meta name="description" content="Petalux HTML5 Template">
+
+        <title>Petalux- Flower Shop Html Template</title>
+
+        <!-- Favicon -->
+        
+
+        <!-- All CSS files -->
+        <link rel="stylesheet" href="static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="static/css/font-awesome.css">
+        <link rel="stylesheet" href="static/css/slick.css">
+        <link rel="stylesheet" href="static/css/slick-theme.css">
+        <link rel="stylesheet" href="static/css/app.css">
+    </head>
+
+    <body>
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="loader2">
+                <div class="load21"></div>
+                <div class="load22"></div>
+                <div class="load23"></div>
+                <div class="load24"></div>
+                <div class="load25"></div>
+            </div>
+        </div>
+        
+        <!-- Back To Top Start -->
+        <a href="#main-wrapper" id="backto-top" class="back-to-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+        <!-- Main Wrapper Start -->
+        <div id="main-wrapper" class="main-wrapper overflow-hidden">
+            <!-- Top Bar Start  -->
+            <div class="top-bar bg-transparent">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-6 offset-xl-5 d-lg-block d-none">
+                        <a class="navbar-brand " href="index.html"><img alt="" src="static/picture/logo.png"></a>
+                    </div>
+                    <div class="col-xl-5 col-sm-6">
+                        <div class="important-links with-bg">
+                            <ul class="list-unstyled d-flex">
+                                <li id="search-form">
+                                    <form method="get" action="./shop.html">
+                                        <div class="input-group">
+                                            <button type="submit" class="input-group-text"><img src="static/picture/search.png" alt=""></button>
+                                            <input type="text" class="form-control" placeholder="Flower">
+                                        </div>
+                                    </form>
+                                </li>
+                                <li><a href="javascript:;" class="search-btn"><img src="static/picture/search.png" alt=""></a></li>
+                                <li><a href=""><img src="static/picture/like.png" alt=""></a></li>
+                                <li><a href="cart.html"><img src="static/picture/bag.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header Area Start -->
+            <header class="header bg-transparent">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand d-lg-none" href="index.html"><img alt="" src="static/picture/logo.png"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"><i class="fas fa-bars"></i></button>
+                        <div class="collapse navbar-collapse" id="mynavbar">
+                            <ul class="navbar-nav mainmenu m-0">
+                                <li class="menu-item"><a href="index.html">Home</a></li>
+                                <li class="menu-item"><a href="" class="active">Shop</a></li>
+                                <li class="menu-item"><a href="about.html">About</a></li>
+                                <li class="menu-item-has-children">
+                                    <a href="javascript:void(0);">Pages</a>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="product-detail.html">Product Detail</a></li>
+                                        <li class="menu-item"><a href="cart.html">Cart</a></li>
+                                        <li class="menu-item"><a href="checkout.html">Checkout</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>  
+                </div>
+            </header>
+            <!-- Header Area end -->
+
+            <!-- Page Banner start -->
+            <section class="page-start-banner">
+                <div class="container">
+                    <div class="content">
+                        <h2 class="title">Shop <span>List</span></h2>
+                    </div>
+                </div>
+            </section>
+            <!-- Page Banner End -->
+
+            <!-- Products Area start -->
+            <section class="arrivals pt-100 pb-50">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4">
+                            <div class="search-bar">
+                                <form method="get" action="./shop.html">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <button type="submit" class="input-group-text"><img src="static/picture/search-2.png" alt=""></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="sidebar">
+                                <div class="content-block">
+                                    <div class=" category-filter">
+                                        <h5 class="title">Categories</h5>
+                                        <ul class="list-unstyled">
+                                            <li><a href="">Occasion</a></li>
+                                            <li><a href="">Seasonal</a></li>
+                                            <li><a href="">Arrangement</a></li>
+                                            <li><a href="">Flower Type</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="content-block">
+                                    <div class="colors-filter">
+                                        <h5 class="title">By Color</h5>
+                                        <ul>
+                                            <li><label><input type="radio" name="color" value="black"><span class="color bg-black">&nbsp;</span> Black</label></li>
+                                            <li><label><input type="radio" name="color" value="red"><span class="color bg-danger">&nbsp;</span> Red </label></li>
+                                            <li><label><input type="radio" name="color" value="grey"><span class="color bg-secondary">&nbsp;</span> Grey </label></li>
+                                            <li><label><input type="radio" name="color" value="blue"><span class="color bg-primary">&nbsp;</span> Blue </label></li>
+                                            <li><label><input type="radio" name="color" value="white"><span class="color bg-brown">&nbsp;</span> Brown </label></li>
+                                            <li><label><input type="radio" name="color" value="yellow"><span class="color bg-warning">&nbsp;</span> Yellow </label></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="content-block">
+                                    <div class="availability-filter">
+                                        <h5 class="title">Availability</h5>
+                                        <ul>
+                                            <li><label class="active"><input type="radio" name="available" value="1"><i class="fa fa-circle text-success"></i> &nbsp;In Stock</label></li>
+                                            <li><label><input type="radio" name="available" value="2"><i class="fa fa-circle text-danger"></i> &nbsp;Out of Stock </label></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-8">
+                            <div class="row">
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="product-card">
+                                        <div class="showcase-box">
+                                            <img src="static/picture/p-1.png" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center justify-content-center">
+                                                    <a href=""><i class="fal fa-box-heart"></i></a>
+                                                    <a href="product-detail.html"><i class="fal fa-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="product-detail.html" class="title">Red Rose Bouquet</a>
+                                        <div class="bottom-row d-flex">
+                                            <a href="cart.html" class="cart-btn">Add to Cart</a>
+                                            <span class="price">$50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="product-card">
+                                        <div class="showcase-box">
+                                            <img src="static/picture/p-2.png" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center justify-content-center">
+                                                    <a href=""><i class="fal fa-box-heart"></i></a>
+                                                    <a href="product-detail.html"><i class="fal fa-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="product-detail.html" class="title">Tropical Peace Lily</a>
+                                        <div class="bottom-row d-flex">
+                                            <a href="cart.html" class="cart-btn">Add to Cart</a>
+                                            <span class="price">$41</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="product-card">
+                                        <div class="showcase-box">
+                                            <img src="static/picture/p-3.png" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center justify-content-center">
+                                                    <a href=""><i class="fal fa-box-heart"></i></a>
+                                                    <a href="product-detail.html"><i class="fal fa-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="product-detail.html" class="title">The White Roses</a>
+                                        <div class="bottom-row d-flex">
+                                            <a href="cart.html" class="cart-btn">Add to Cart</a>
+                                            <span class="price">$15</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="product-card">
+                                        <div class="showcase-box">
+                                            <img src="static/picture/p-4.png" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center justify-content-center">
+                                                    <a href=""><i class="fal fa-box-heart"></i></a>
+                                                    <a href="product-detail.html"><i class="fal fa-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="product-detail.html" class="title">Sun Flower Elegance</a>
+                                        <div class="bottom-row d-flex">
+                                            <a href="cart.html" class="cart-btn">Add to Cart</a>
+                                            <span class="price">$77</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="product-card">
+                                        <div class="showcase-box">
+                                            <img src="static/picture/p-5.png" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center justify-content-center">
+                                                    <a href=""><i class="fal fa-box-heart"></i></a>
+                                                    <a href="product-detail.html"><i class="fal fa-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="product-detail.html" class="title">Lily charm</a>
+                                        <div class="bottom-row d-flex">
+                                            <a href="cart.html" class="cart-btn">Add to Cart</a>
+                                            <span class="price">$96</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="product-card">
+                                        <div class="showcase-box">
+                                            <img src="static/picture/p-6.png" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center justify-content-center">
+                                                    <a href=""><i class="fal fa-box-heart"></i></a>
+                                                    <a href="product-detail.html"><i class="fal fa-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="product-detail.html" class="title">Daisy Grace</a>
+                                        <div class="bottom-row d-flex">
+                                            <a href="cart.html" class="cart-btn">Add to Cart</a>
+                                            <span class="price">$38</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="product-card">
+                                        <div class="showcase-box">
+                                            <img src="static/picture/p-7.png" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center justify-content-center">
+                                                    <a href=""><i class="fal fa-box-heart"></i></a>
+                                                    <a href="product-detail.html"><i class="fal fa-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="product-detail.html" class="title">Teleflora Bouquet</a>
+                                        <div class="bottom-row d-flex">
+                                            <a href="cart.html" class="cart-btn">Add to Cart</a>
+                                            <span class="price">$52</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="product-card">
+                                        <div class="showcase-box">
+                                            <img src="static/picture/p-8.png" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center justify-content-center">
+                                                    <a href=""><i class="fal fa-box-heart"></i></a>
+                                                    <a href="product-detail.html"><i class="fal fa-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="product-detail.html" class="title">The Pink Rose</a>
+                                        <div class="bottom-row d-flex">
+                                            <a href="cart.html" class="cart-btn">Add to Cart</a>
+                                            <span class="price">$36</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6">
+                                    <div class="product-card">
+                                        <div class="showcase-box">
+                                            <img src="static/picture/p-4.png" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center justify-content-center">
+                                                    <a href=""><i class="fal fa-box-heart"></i></a>
+                                                    <a href="product-detail.html"><i class="fal fa-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="product-detail.html" class="title">Sun Flower Elegance</a>
+                                        <div class="bottom-row d-flex">
+                                            <a href="cart.html" class="cart-btn">Add to Cart</a>
+                                            <span class="price">$77</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="pagination-wrape">
+                                        <ul class="pagination">
+                                            <li class="page-item"><a href="#" class="page-link arrow" aria-label="next"><i class="far fa-chevron-left"></i></a></li> 
+                                            <li class="page-item"><a class="page-link current" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a href="#" class="page-link arrow" aria-label="next"><i class="far fa-chevron-right"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>             
+            <!-- Products Area end -->
+
+            <!-- Inner Banner Area start -->
+            <section class="inner-banner">
+                <div class="container">
+                    <div class="content">
+                        <h3>Discounted Floral Bliss</h3> 
+                        <h6>Spring Season Sale</h6> 
+                        <h2>Save Big with 30% Off</h2> 
+                        <a href="" class="cus-btn bordered">Shop Now</a>
+                    </div>
+                </div>
+            </section>
+            <!-- Inner Banner Area end -->
+
+            <!-- footer Area start -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="main">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-9 col-11">
+                                <a class="logo" href="index.html"><img alt="" src="static/picture/logo.png"></a>
+                                <p class="detail">Welcome to our flower shop, where beauty blossoms. We specialize in crafting stunning floral arrangeme-nts for every occasion.</p>
+                            </div>
+                            <div class="col-lg-2 offset-lg-1">
+                                <h5 class="title">Categories</h5>
+                                <ul class="list-unstyled links">
+                                    <li><a href="">Roses</a></li>
+                                    <li><a href="">Seasonal Blooms</a></li>
+                                    <li><a href="">Exotic Flowers</a></li>
+                                    <li><a href="">Mixed Bouquets</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3">
+                                <h5 class="title">Essential Links</h5>
+                                <ul class="list-unstyled links">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="">Shop</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="cart.html">Cart</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-9 col-10">
+                                <h5 class="title">Subscribe to Our Newsletter</h5>
+                                <form action="index.html">
+                                    <div class="input-group mb-16">
+                                        <input type="email" class="form-control" id="email" name="email" required="" placeholder="Your Email">
+                                    </div>
+                                    <div class="text-end">
+                                        <button type="submit" class="cus-btn light">Subscribe</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-content">
+                        <div class="text-lg-center">
+                            <h5 class="title ">Contact Info:</h5>
+                        </div>
+                        <div class="contact-row">
+                            <ul class="contact-list list-unstyled">
+                                <li><a href="tel:123456789"><img src="static/picture/phone.png" alt="">+1 233 898 0897</a></li>
+                                <li><a href="mailto:info@gmail.com"><img src="static/picture/message.png" alt=""> email@example.com</a></li>
+                                <li><span> <img src="static/picture/location.png" alt=""> 123 Main Street, Anytown, USA.</span></li>
+                            </ul>
+                            <ul class="footer-social-icon list-unstyled">
+                                <li><a href=""><img src="static/picture/facebook.png" alt=""></a></li>
+                                <li><a href=""><img src="static/picture/twitter.png" alt=""></a></li>
+                                <li><a href=""><img src="static/picture/snap-chat.png" alt=""></a></li>
+                                <li><a href=""><img src="static/picture/instagram.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <p class="copyright">Copyright &copy; 2023.Company name All rights reserved.<a target="_blank" href="https://www.php.cn/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p> 
+                    </div>
+                </div>
+            </footer>
+            <!-- footer Area end -->
+
+        </div>
+            <!-- Jquery Js -->
+            <script src="static/js/jquery-3.6.3.min.js"></script>
+            <script src="static/js/bootstrap.min.js"></script>
+            <script src="static/js/jquery.countdown.min.js"></script>
+            <script src="static/js/slick.min.js"></script>
+            <script src="static/js/jquery-appear.js"></script>
+            <script src="static/js/jquery-validator.js"></script>
+            <!-- Site Scripts -->
+            <script src="static/js/app.js"></script>
+    </body>
+
+</html>
